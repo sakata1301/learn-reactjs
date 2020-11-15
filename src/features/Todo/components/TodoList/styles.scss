@@ -1,0 +1,12 @@
+//css for todolist
+.todo-list{
+    & li{
+        cursor: pointer;
+    }
+
+    & li.completed{
+        text-decoration: line-through;
+        font-style: italic;
+        color:#ccc;
+    }
+}
